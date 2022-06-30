@@ -1,4 +1,4 @@
-module picture
+module chaosGallery
 
 go 1.18
 
