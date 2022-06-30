@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+//    background: #2b2b38;
+    background:#ccc;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#app {
+    display: flex;
+}
+
+h2 {
+    font: bold 100px arial, sans-serif;
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+}
+
+
+h3 {
+    position: absolute;
+    font: bold 200px arial, sans-serif;
+    background-color: #282834;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgb(39, 39, 51);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    top: 40%;
+    left: 40%;
+    font-size: 50px;
+}
+
+h1 {
+    color: #16161d;
+    text-shadow: 0px 2px 3px #222;
+    position: absolute;
+
+}
+
+img {
+    max-width: 600px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+}
+
+#lane1 {
+    min-width: calc(99vw / 4);
+    max-height: 50vh;
+
+}
+
+#lane2 {
+    min-width: calc(99vw / 4);
+    max-height: 50vh;
+}
+
+#lane3 {
+    min-width: calc(99vw / 4);
+    max-height: 50vh;
+}
+
+#lane4 {
+    min-width: calc(99vw / 4);
+    max-height: 50vh;
+}
