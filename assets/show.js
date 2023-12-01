@@ -6,7 +6,7 @@ let allFiles = [],
     newFiles = [],
     shownFiles = [],
     src = "http://localhost:8080/all",
-    imgSrc = "http://localhost:8080/picture/",
+    imgSrc = "http://localhost:8080/chaosGallery/",
     maxBottomToDelete = 1200,
     maxSpawnHeight = -2000;
 

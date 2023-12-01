@@ -2,8 +2,8 @@ package UseCases
 
 import (
 	"fmt"
-	"io/ioutil"
 	"log"
+	"os"
 )
 
 var newFiles []string
@@ -11,7 +11,7 @@ var newFiles []string
 func AllPictures() []string {
 	var allFiles []string
 	allFiles = nil
-	files, err := ioutil.ReadDir("./assets/pictures/")
+	files, err := os.ReadDir("./assets/pictures/")
 	if err != nil {
 		log.Fatal(err)
 	}
